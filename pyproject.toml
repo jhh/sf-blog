@@ -1,16 +1,18 @@
 [tool.poetry]
 name = "sfdo"
-version = "0.1.0"
+version = "0.2.0"
 description = "Stryke Force blog scripts"
 authors = ["Jeff Hutchison <jeff@jeffhutchison.com>"]
 license = "MIT"
 
 [tool.poetry.scripts]
 sfdo = "sfdo.application:main"
+sfdo-frc-students = "sfdo.frc_students:main"
 
 [tool.poetry.dependencies]
 python = "^3.10"
 Jinja2 = "^3.0.3"
+dataclasses-json = "^0.5.6"
 
 [tool.poetry.dev-dependencies]
 black = "^22.1.0"
