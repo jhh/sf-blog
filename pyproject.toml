@@ -10,7 +10,7 @@ sfdo = "sfdo.application:main"
 sfdo-frc-students = "sfdo.frc_students:main"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.9"
 Jinja2 = "^3.0.3"
 dataclasses-json = "^0.5.6"
 
